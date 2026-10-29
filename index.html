@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ink">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>Sanvi Bansal · UI/UX, Logo and Thumbnail Designer</title>
+    <meta name="description"
+        content="Sanvi Bansal is a visual designer specializing in UI/UX design, custom logo identities, high click through rate YouTube thumbnails, and digital visual art.">
+    <meta name="theme-color" content="#0b0b0c">
+    <link rel="canonical" href="https://sanvibansal.com/">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b0b0c'/%3E%3Ctext x='50%25' y='68%25' font-size='56' font-weight='700' font-family='Plus Jakarta Sans, sans-serif' fill='%23d9714f' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sanvi Bansal · UI/UX, Logo and Thumbnail Designer">
+    <meta property="og:description"
+        content="UI/UX design, custom logo identities, high converting YouTube thumbnails, and creative visual design crafted for maximum audience engagement.">
+    <meta property="og:image" content="assets/projects/1.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sanvi Bansal · UI/UX, Logo and Thumbnail Designer">
+    <meta name="twitter:description"
+        content="UI/UX design, custom logo identities, high converting YouTube thumbnails, and creative visual design crafted for maximum audience engagement.">
+    <meta name="twitter:image" content="assets/projects/1.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preload" as="image" href="assets/projects/1.webp" type="image/webp" fetchpriority="high">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,600;0,700;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="is-booting no-js">
+
+    <!-- ════════ FILM GRAIN ════════ -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ════════ CUSTOM CURSOR (desktop, JS gated) ════════ -->
+    <div class="cursor" id="cursor" aria-hidden="true">
+        <span class="cursor__dot"></span>
+        <span class="cursor__ring"><span class="cursor__label">View</span></span>
+    </div>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ════════ OPENING SEQUENCE ════════ -->
+    <div class="opener" id="opener">
+        <div class="opener__inner">
+            <div class="opener__name" aria-hidden="true">
+                <span class="opener__line"><span class="opener__word" data-o="1">Sanvi</span></span>
+                <span class="opener__line"><span class="opener__word" data-o="2">Bansal</span></span>
+            </div>
+            <div class="opener__role" aria-hidden="true">
+                <span class="opener__roleInner">UI/UX · Logo · Thumbnail · Visual Designer</span>
+            </div>
+        </div>
+        <div class="opener__foot" aria-hidden="true">
+            <span class="opener__count" id="openerCount">00</span>
+            <span class="opener__bar"><i id="openerBarFill"></i></span>
+        </div>
+        <p class="sr-only" role="status" id="openerStatus" aria-live="polite">Loading portfolio</p>
+    </div>
+
+    <!-- ════════ NAVIGATION ════════ -->
+    <header class="nav" id="nav">
+        <a href="#hero" class="nav__logo" data-scroll>
+            <span class="nav__logoMark">Sanvi</span>
+            <span class="nav__logoSub">Bansal</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Primary">
+            <a href="#about" data-scroll><i>01</i>About</a>
+            <a href="#services" data-scroll><i>02</i>Services</a>
+            <a href="#process" data-scroll><i>03</i>Process</a>
+            <a href="#work" data-scroll><i>04</i>Work</a>
+            <a href="#archive" data-scroll><i>05</i>Archive</a>
+            <a href="#faq" data-scroll><i>06</i>FAQ</a>
+            <a href="#contact" data-scroll><i>07</i>Contact</a>
+        </nav>
+
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="menu">
+            <span class="nav__toggleTxt" data-open="Menu" data-close="Close">Menu</span>
+            <span class="nav__toggleIcon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+    </header>
+
+    <!-- ════════ MOBILE MENU ════════ -->
+    <div class="menu" id="menu" aria-hidden="true">
+        <nav class="menu__list" aria-label="Mobile">
+            <a href="#about" data-scroll><i>01</i><span>About</span></a>
+            <a href="#services" data-scroll><i>02</i><span>Services</span></a>
+            <a href="#process" data-scroll><i>03</i><span>Process</span></a>
+            <a href="#work" data-scroll><i>04</i><span>Work</span></a>
+            <a href="#archive" data-scroll><i>05</i><span>Archive</span></a>
+            <a href="#faq" data-scroll><i>06</i><span>FAQ</span></a>
+            <a href="#contact" data-scroll><i>07</i><span>Contact</span></a>
+        </nav>
+        <div class="menu__foot">
+            <a href="mailto:sanvibansal2210@gmail.com">sanvibansal2210@gmail.com</a>
+            <a href="https://discord.gg/zJmwTAxzZx" target="_blank" rel="noopener noreferrer">Discord&nbsp;↗<span
+                    class="sr-only"> (opens in new tab)</span></a>
+        </div>
+    </div>
+
+    <!-- ════════ HUD ════════ -->
+    <div class="hud" aria-hidden="true">
+        <span class="hud__label" id="hudLabel">Opening</span>
+        <span class="hud__rail"><i id="hudFill"></i></span>
+        <span class="hud__index" id="hudIndex">01</span>
+    </div>
+
+    <main id="main" tabindex="-1">
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 01 / HERO
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--ink hero" id="hero" data-scene="Hero" data-nav="ink">
+            <div class="hero__inner">
+
+                <div class="hero__top">
+                    <span class="eyebrow" data-rise>UI/UX · Logo · Thumbnail · Visual Designer</span>
+                    <span class="hero__available" data-rise>
+                        <span class="hero__statusDot" aria-hidden="true"></span>Available for select commissions
+                    </span>
+                </div>
+
+                <h1 class="hero__title">
+                    <span class="mask"><span class="mask__i" data-hero-line>Sanvi</span></span>
+                    <span class="mask"><span class="mask__i" data-hero-line>Bansal<em
+                                class="hero__ast">*</em></span></span>
+                </h1>
+
+                <div class="hero__base">
+                    <p class="hero__lede" data-rise>
+                        UI/UX Designer · Logo and Identity Creator · Thumbnail Artist.
+                        <em>Transforming concepts into high conversion interfaces, distinct brand marks, and cinematic visuals.</em>
+                    </p>
+
+                    <div class="hero__actions" data-rise>
+                        <a href="#contact" class="btn btn--fill" data-scroll>
+                            <span>Work With Me</span><i>→</i>
+                        </a>
+                        <a href="https://discord.gg/zJmwTAxzZx" target="_blank" rel="noopener noreferrer" class="btn"
+                            aria-label="Join Discord community (opens in new tab)">
+                            <span>Discord</span><i>↗</i><span class="sr-only"> (opens in new tab)</span>
+                        </a>
+                        <a href="#work" class="btn" data-scroll>
+                            <span>Portfolio</span><i>↓</i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero__marquee" aria-hidden="true">
+                <div class="marquee__track" id="heroMarquee"></div>
+            </div>
+
+            <span class="hero__scroll" aria-hidden="true">
+                <em>Scroll</em><i></i>
+            </span>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 02 / MANIFESTO
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--ink manifesto" id="manifesto" data-scene="Manifesto" data-nav="ink">
+            <div class="manifesto__pin">
+                <p class="manifesto__text" id="manifestoText">
+                    Great visual design turns casual scrollers into passionate users and loyal viewers.
+                </p>
+                <span class="manifesto__sig" aria-hidden="true">Sanvi Bansal</span>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 03 / ABOUT
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--paper about" id="about" data-scene="About" data-nav="paper">
+            <div class="wrap">
+
+                <header class="sec">
+                    <span class="eyebrow" data-rise>01 / About</span>
+                    <h2 class="sec__title">
+                        <span class="mask"><span class="mask__i" data-line>Designing experiences,</span></span>
+                        <span class="mask"><span class="mask__i" data-line>identities &amp; <em>visuals</em>.</span></span>
+                    </h2>
+                </header>
+
+                <div class="about__grid">
+                    <div class="about__body">
+                        <p class="about__lede" data-rise>
+                            Multidisciplinary visual designer crafting intuitive UI/UX interfaces, memorable brand identity systems, and high conversion YouTube cover art.
+                        </p>
+                        <p class="about__text" data-rise>
+                            I partner with digital creators, tech startups, and independent brands to translate creative visions into compelling visual experiences. Every project is developed with keen attention to typographic hierarchy, spatial balance, color theory, and platform specific readability across mobile and desktop viewports.
+                        </p>
+                        <div class="stamp" data-rise>
+                            <span class="stamp__ring" aria-hidden="true"></span>
+                            Open for Design Commissions and Collaborations
+                        </div>
+
+                        <div class="tools" data-rise>
+                            <span class="tools__title">Design and Creative Toolkit</span>
+                            <div class="tools__row">
+                                <span class="tools__chip"><i>Fg</i> Figma</span>
+                                <span class="tools__chip"><i>Ps</i> Adobe Photoshop</span>
+                                <span class="tools__chip"><i>Ai</i> Adobe Illustrator</span>
+                                <span class="tools__chip"><i>Bl</i> Blender 3D</span>
+                                <span class="tools__chip"><i>Lr</i> Lightroom Classic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <dl class="stats">
+                        <div class="stat" data-stat>
+                            <dt class="stat__label">Thumbnails Produced</dt>
+                            <dd class="stat__num"><span data-count="31">31</span><i>+</i></dd>
+                        </div>
+                        <div class="stat" data-stat>
+                            <dt class="stat__label">Audience Impressions</dt>
+                            <dd class="stat__num"><span data-count="1">1</span><i>M+</i></dd>
+                        </div>
+                        <div class="stat" data-stat>
+                            <dt class="stat__label">Average Peak CTR</dt>
+                            <dd class="stat__num"><span data-count="9">9</span><i>%</i></dd>
+                        </div>
+                        <div class="stat" data-stat>
+                            <dt class="stat__label">Client Satisfaction</dt>
+                            <dd class="stat__num"><span data-count="97">97</span><i>%</i></dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 04 / SERVICES
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--ink services" id="services" data-scene="Services" data-nav="ink">
+            <div class="services__pin">
+                <div class="wrap services__head">
+                    <div>
+                        <span class="eyebrow">02 / Capabilities</span>
+                        <h2 class="services__heading">Design Services and Expertise</h2>
+                    </div>
+                    <span class="services__count"><em id="svcCount">01</em><i>/ 04</i></span>
+                </div>
+
+                <div class="services__stage wrap">
+                    <article class="svc is-active" data-svc="1">
+                        <span class="svc__num" aria-hidden="true">01</span>
+                        <h3 class="svc__title">Logo &amp;<br>Identity</h3>
+                        <p class="svc__desc">Distinctive brand marks, typography pairings, color systems, and comprehensive vector guidelines crafted to define your brand across every touchpoint.</p>
+                    </article>
+                    <article class="svc" data-svc="2">
+                        <span class="svc__num" aria-hidden="true">02</span>
+                        <h3 class="svc__title">Thumbnail<br>Design</h3>
+                        <p class="svc__desc">High converting YouTube cover art blending 3D depth, custom lighting, expressive character composition, and rapid feed readability to maximize CTR.</p>
+                    </article>
+                    <article class="svc" data-svc="3">
+                        <span class="svc__num" aria-hidden="true">03</span>
+                        <h3 class="svc__title">UI/UX<br>Design</h3>
+                        <p class="svc__desc">Intuitive web and mobile interfaces, wireframes, and scalable design systems built in Figma with thoughtful user journeys and pixel perfect craft.</p>
+                    </article>
+                    <article class="svc" data-svc="4">
+                        <span class="svc__num" aria-hidden="true">04</span>
+                        <h3 class="svc__title">Visual &amp;<br>Art Direction</h3>
+                        <p class="svc__desc">Cinematic digital art, promotional graphics, high dynamic range color grading, and creative image manipulation for digital campaigns.</p>
+                    </article>
+                </div>
+
+                <ol class="services__rail wrap" aria-hidden="true">
+                    <li class="is-on"><i></i>Logo and Identity</li>
+                    <li><i></i>Thumbnail Design</li>
+                    <li><i></i>UI/UX Design</li>
+                    <li><i></i>Visual Design</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 05 / CREATIVE PROCESS
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--paper process" id="process" data-scene="Process" data-nav="paper">
+            <div class="wrap">
+                <header class="sec">
+                    <span class="eyebrow" data-rise>03 / Creative Process</span>
+                    <h2 class="sec__title">
+                        <span class="mask"><span class="mask__i" data-line>How impactful visuals</span></span>
+                        <span class="mask"><span class="mask__i" data-line>are <em>crafted</em>.</span></span>
+                    </h2>
+                </header>
+
+                <div class="process__grid">
+                    <article class="process__card" data-rise>
+                        <div>
+                            <span class="process__num">Phase 01</span>
+                            <h3 class="process__h">Discovery and Strategy</h3>
+                            <p class="process__p">Uncovering user psychology, content context, and brand identity to establish visual hierarchy, creative direction, and moodboards before touching the canvas.</p>
+                        </div>
+                        <span class="process__tag">Strategy</span>
+                    </article>
+
+                    <article class="process__card" data-rise>
+                        <div>
+                            <span class="process__num">Phase 02</span>
+                            <h3 class="process__h">Wireframe and 3D Staging</h3>
+                            <p class="process__p">Structuring layout grids in Figma and staging 3D character compositions in Blender to establish balance, depth perspective, and visual focal flow.</p>
+                        </div>
+                        <span class="process__tag">Spatial Layout</span>
+                    </article>
+
+                    <article class="process__card" data-rise>
+                        <div>
+                            <span class="process__num">Phase 03</span>
+                            <h3 class="process__h">High Fidelity Styling</h3>
+                            <p class="process__p">Applying layered color harmony, vector typography, atmospheric rim lighting, and detailed digital artwork with obsessive attention to craft.</p>
+                        </div>
+                        <span class="process__tag">Visual Craft</span>
+                    </article>
+
+                    <article class="process__card" data-rise>
+                        <div>
+                            <span class="process__num">Phase 04</span>
+                            <h3 class="process__h">Feed and Usability Testing</h3>
+                            <p class="process__p">Validating contrast ratios, mobile scale legibility down to 120px viewports, and usability flow across devices to guarantee instant clarity.</p>
+                        </div>
+                        <span class="process__tag">Quality Check</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 06 / FEATURED WORK
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--ink work" id="work" data-scene="Selected Work" data-nav="ink">
+            <div class="wrap work__intro">
+                <span class="eyebrow" data-rise>04 / Portfolio</span>
+                <h2 class="work__title">
+                    <span class="mask"><span class="mask__i" data-line>Selected</span></span>
+                    <span class="mask"><span class="mask__i" data-line><em>Work</em></span></span>
+                </h2>
+                <p class="work__lede" data-rise>
+                    A curated showcase of high performance YouTube thumbnails, brand identities, and visual design projects crafted with intention and creative precision.
+                </p>
+            </div>
+
+            <!-- cinematic featured scenes are injected here -->
+            <div id="featured" class="featured"></div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 07 / PROJECT ARCHIVE
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--paper archive" id="archive" data-scene="Archive" data-nav="paper"
+            data-view="gallery">
+            <div class="wrap">
+                <header class="sec sec--split">
+                    <div>
+                        <span class="eyebrow" data-rise>05 / Archive</span>
+                        <h2 class="sec__title">
+                            <span class="mask"><span class="mask__i" data-line>Project</span></span>
+                            <span class="mask"><span class="mask__i" data-line><em>Library</em></span></span>
+                        </h2>
+                    </div>
+                    <p class="sec__aside" data-rise>
+                        <span id="archiveTally">The complete library.</span>
+                        Comprehensive design library featuring YouTube cover artwork, brand marks, and digital art explorations. Select any artwork to inspect in full resolution.
+                    </p>
+                </header>
+            </div>
+
+            <div class="wrap wrap--wide">
+                <div class="archive__tools" data-rise>
+                    <span class="archive__hint">Selected Creative Portfolio</span>
+                    <div class="views" role="group" aria-label="Archive layout">
+                        <button type="button" class="views__btn" id="viewGallery" aria-pressed="true">Gallery</button>
+                        <button type="button" class="views__btn" id="viewIndex" aria-pressed="false">Index</button>
+                    </div>
+                </div>
+
+                <div class="gallery" id="gallery"></div>
+                <div class="index" id="index"></div>
+
+                <p class="archive__note" data-rise>
+                    Looking for custom commissioned thumbnails, brand identity, or UI design?
+                    <a href="#contact" data-scroll>Let's discuss your project<i>→</i></a>
+                </p>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 08 / WORKING TOGETHER FAQ
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--ink faq" id="faq" data-scene="FAQ" data-nav="ink">
+            <div class="wrap">
+                <header class="sec">
+                    <span class="eyebrow" data-rise>06 / Working Together</span>
+                    <h2 class="sec__title">
+                        <span class="mask"><span class="mask__i" data-line>Clear answers.</span></span>
+                        <span class="mask"><span class="mask__i" data-line><em>Zero friction</em>.</span></span>
+                    </h2>
+                </header>
+
+                <div class="faq__list">
+                    <div class="faq__item" data-rise>
+                        <h3 class="faq__q">What design services do you specialize in?</h3>
+                        <p class="faq__a">I specialize in high conversion YouTube thumbnail design, custom logo and brand identity packages, intuitive UI/UX interface design, and digital image manipulation.</p>
+                    </div>
+
+                    <div class="faq__item" data-rise>
+                        <h3 class="faq__q">What is your typical turnaround time?</h3>
+                        <p class="faq__a">YouTube thumbnail commissions are completed within 24 to 48 hours. Comprehensive UI/UX sprints and brand identity packages follow structured milestone schedules with regular design reviews.</p>
+                    </div>
+
+                    <div class="faq__item" data-rise>
+                        <h3 class="faq__q">What design files and deliverables do you provide?</h3>
+                        <p class="faq__a">You receive production ready assets: interactive Figma project links, organized layered Adobe Photoshop PSD files, vector AI/SVG logo formats, and high resolution PNG exports.</p>
+                    </div>
+
+                    <div class="faq__item" data-rise>
+                        <h3 class="faq__q">Are monthly retainers available for ongoing creative support?</h3>
+                        <p class="faq__a">Yes. Content creators, digital media teams, and product brands can secure monthly retainers for consistent weekly thumbnails, ongoing UI design updates, and dedicated creative priority.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SCENE 09 / CONTACT
+        ═══════════════════════════════════════════════════════ -->
+        <section class="scene scene--paper contact" id="contact" data-scene="Contact" data-nav="paper">
+            <div class="wrap">
+
+                <span class="eyebrow" data-rise>07 / Get in touch</span>
+
+                <h2 class="contact__title">
+                    <span class="mask"><span class="mask__i" data-line>Let's</span></span>
+                    <span class="mask"><span class="mask__i" data-line>make</span></span>
+                    <span class="mask"><span class="mask__i" data-line><em>something.</em></span></span>
+                </h2>
+
+                <div class="contact__id" data-rise>
+                    <span>Sanvi Bansal</span>
+                    <i></i>
+                    <span>UI/UX and Visual Designer</span>
+                </div>
+
+                <p class="contact__lede" data-rise>
+                    Have an upcoming YouTube release, UI/UX project, or brand identity initiative? Reach out directly via email or Discord.
+                </p>
+
+                <div class="channels">
+                    <a href="mailto:sanvibansal2210@gmail.com" class="channel" data-rise>
+                        <span class="channel__k">Email</span>
+                        <span class="channel__v">sanvibansal2210@gmail.com</span>
+                        <span class="channel__go" aria-hidden="true">→</span>
+                    </a>
+                    <a href="https://discord.gg/zJmwTAxzZx" target="_blank" rel="noopener noreferrer" class="channel"
+                        data-rise>
+                        <span class="channel__k">Discord</span>
+                        <span class="channel__v">Join the community</span>
+                        <span class="channel__go" aria-hidden="true">↗</span>
+                        <span class="sr-only"> (opens in new tab)</span>
+                    </a>
+                </div>
+
+                <div class="stamp stamp--wide" data-rise>
+                    <span class="stamp__ring" aria-hidden="true"></span>
+                    Commissions and Project Inquiries Welcome
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════════════════════════
+         END / FOOTER
+    ═══════════════════════════════════════════════════════ -->
+    <footer class="scene scene--ink footer" data-scene="End" data-nav="ink">
+        <div class="footer__marquee" aria-hidden="true">
+            <div class="marquee__track" id="footMarquee"></div>
+        </div>
+        <div class="wrap footer__base">
+            <p>&copy; 2026 <b>Sanvi Bansal</b> · All rights reserved.</p>
+            <p class="footer__credit">
+                Crafted with ❤️ for Sanvi Bansal by
+                <a href="https://sakshambgyt.vercel.app/" target="_blank" rel="noopener noreferrer">Saksham (Saktrix
+                    Studios)<i>↗</i><span class="sr-only"> (opens in new tab)</span></a>
+            </p>
+            <button class="footer__top" id="toTop"><span>Back to top</span><i>↑</i></button>
+        </div>
+    </footer>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROJECT VIEWER / LIGHTBOX
+    ═══════════════════════════════════════════════════════ -->
+    <div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewerTitle" aria-hidden="true"
+        hidden>
+        <div class="viewer__scrim" data-viewer-close></div>
+
+        <div class="viewer__bar">
+            <h2 class="viewer__title" id="viewerTitle">Project</h2>
+            <span class="viewer__count" id="viewerCount">01 / 01</span>
+            <button class="viewer__close" id="viewerClose" aria-label="Close project viewer">
+                <span>Close</span><i aria-hidden="true">×</i>
+            </button>
+        </div>
+
+        <figure class="viewer__stage">
+            <img id="viewerImg" alt="" decoding="async">
+        </figure>
+
+        <div class="viewer__nav">
+            <button class="viewer__arrow" id="viewerPrev" aria-label="Previous project"><i
+                    aria-hidden="true">←</i><span>Prev</span></button>
+            <button class="viewer__arrow" id="viewerNext" aria-label="Next project"><span>Next</span><i
+                    aria-hidden="true">→</i></button>
+        </div>
+
+        <p class="viewer__hint" aria-hidden="true">Esc to close · ← → to browse</p>
+    </div>
+
+    <!-- ════════ PROJECT CATALOG ════════ -->
+    <script>
+        window.SANVI_PROJECTS = [
+            { id: 1, image: 'assets/projects/1.webp', fallback: 'assets/projects/1.jpg', w: 1600, h: 900, title: 'AN 94 Class Setup', category: 'Thumbnail Design', alt: 'Call of Duty warzone thumbnail showing tactical operator with AN 94 weapon loadout card' },
+            { id: 2, image: 'assets/projects/2.webp', fallback: 'assets/projects/2.jpg', w: 1600, h: 900, title: 'New Journey With Friend', category: 'Thumbnail Design', alt: 'Minecraft Hardcore thumbnail featuring Steve and friend exploring terrain with torches' },
+            { id: 3, image: 'assets/projects/3.webp', fallback: 'assets/projects/3.jpg', w: 1600, h: 900, title: 'Brewing Potions For War', category: 'Thumbnail Design', alt: 'Minecraft alchemy thumbnail showing character holding glowing fire and water potions' },
+            { id: 4, image: 'assets/projects/4.webp', fallback: 'assets/projects/4.jpg', w: 1600, h: 900, title: 'Just Dropped: Striker 9', category: 'Thumbnail Design', alt: 'First person perspective Call of Duty warfare thumbnail showcasing Striker 9 weapon' },
+            { id: 5, image: 'assets/projects/5.webp', fallback: 'assets/projects/5.jpg', w: 1600, h: 900, title: 'Duo Survival House', category: 'Thumbnail Design', alt: 'Minecraft architecture thumbnail featuring duo survival wooden mansion build' },
+            { id: 6, image: 'assets/projects/6.webp', fallback: 'assets/projects/6.jpg', w: 1600, h: 900, title: 'Hardcore Survival Estate', category: 'Thumbnail Design', alt: 'Minecraft Hardcore estate build with character wielding enchanted purple sword' },
+            { id: 7, image: 'assets/projects/7.webp', fallback: 'assets/projects/7.jpg', w: 1280, h: 720, title: 'Lone Wolf Battlefield', category: 'Thumbnail Design', alt: 'Call of Duty lone wolf thumbnail showing soldier on tank overlooking sunset battlefield' },
+            { id: 8, image: 'assets/projects/8.webp', fallback: 'assets/projects/8.jpg', w: 1280, h: 720, title: 'Last Survivor Challenge', category: 'Thumbnail Design', alt: 'Call of Duty survivor challenge thumbnail showing military helicopter cockpit over explosion' },
+            { id: 9, image: 'assets/projects/9.webp', fallback: 'assets/projects/9.jpg', w: 1280, h: 720, title: 'Roblox Best Shopkeeper', category: 'Thumbnail Design', alt: 'Roblox city simulation gameplay thumbnail with running avatar in a low poly park' },
+            { id: 10, image: 'assets/projects/10.webp', fallback: 'assets/projects/10.jpg', w: 1280, h: 720, title: 'Nether Portal Rescue', category: 'Thumbnail Design', alt: 'Minecraft story thumbnail of player charging through glowing purple nether portal with diamond sword' },
+            { id: 11, image: 'assets/projects/11.webp', fallback: 'assets/projects/11.jpg', w: 1080, h: 597, title: 'Survival World Panorama', category: 'Thumbnail Design', alt: 'Panoramic Minecraft survival landscape with cherry blossom trees, windmill, and armored warrior' },
+            { id: 12, image: 'assets/projects/12.webp', fallback: 'assets/projects/12.jpg', w: 1080, h: 611, title: 'Stronghold End Portal', category: 'Thumbnail Design', alt: 'Minecraft stronghold stone fortress with activated End Portal frame and shocked Steve avatar' },
+            { id: 13, image: 'assets/projects/13.webp', fallback: 'assets/projects/13.jpg', w: 1080, h: 599, title: 'Nether Fortress Bridge', category: 'Thumbnail Design', alt: 'Minecraft Nether fortress bridge battle over molten lava lake with Wither skeletons and Blazes' }
+        ];
+    </script>
+
+    <!-- ════════ LIBRARIES ════════ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
